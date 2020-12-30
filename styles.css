@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    background: #ffffff
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: 000000;
+}
+
+.logo {
+    float: left;
+}
+
+nav {
+    float: right;
+}
