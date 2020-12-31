@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background: #ee8585
+    background: #f3f3f3
 }
 
 .container {
@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    background: 000000;
+    background: #ffffff;
 }
 
 header::after {
@@ -20,8 +20,15 @@ header::after {
 
 .logo {
     float: left;
+    padding-top: 10px;
 }
 
 nav {
     float: right;
+}
+
+nav li {
+    display: inline;
+    margin-left:70px;
+    padding-top: 25px;
 }
