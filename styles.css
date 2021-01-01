@@ -1,6 +1,11 @@
 body {
+    font-family: "Montserrat", serif;
+    font-size: 100%;
+    font-weight: 300;
     margin: 0;
     background: #f3f3f3
+    
+        
 }
 
 .container {
@@ -20,15 +25,28 @@ header::after {
 
 .logo {
     float: left;
-    padding-top: 10px;
+    padding-top: 2.5%;
+    padding-left: 3%;
 }
 
 nav {
     float: right;
+    
+    transform: scaleX(2);
+    transform: scaleY();
 }
 
 nav li {
     display: inline;
-    margin-left:70px;
-    padding-top: 25px;
+    margin-left: 10px;
+    padding-top: 0px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-stretch: expanded;
+    
 }
