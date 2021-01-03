@@ -3,6 +3,7 @@ body {
     background-image:
         linear-gradient(to right, black 1px, transparent 1px),
         linear-gradient(to bottom, black 1px, transparent 1px);
+    background-repeat: repeat;
     font-family: "Montserrat", serif;
     font-size: 100%;
     font-weight: 300;
