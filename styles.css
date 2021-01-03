@@ -34,7 +34,7 @@ header::after {
 nav {
     float: right;
     
-    transform: scaleX(1.2);
+    transform: scaleX(1.25);
 }
 
 nav li {
