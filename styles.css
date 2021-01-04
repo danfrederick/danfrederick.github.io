@@ -3,28 +3,28 @@ body {
     padding: 0;
     width: 100%;
     height: 100vh;
-
+    background-size: 80px 80px;
+    background-image:
+    linear-gradient(to right, black 1px, transparent 1px),
+    linear-gradient(to bottom, black 1px, transparent 1px);
+    background-repeat: repeat;
    
     
     font-family: "Montserrat", serif;
     font-size: 100%;
     font-weight: 300;
     
-    background: #f3f3f3
+    
 }
-.wrapper {
+.main-body {
     margin: none;
-    background-size: 80px 80px;
-    background-image:
-    linear-gradient(to right, black 1px, transparent 1px),
-    linear-gradient(to bottom, black 1px, transparent 1px);
-    background-repeat: repeat;
+    background: #f3f3f3
 }
 
 .title {
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 30px;
+    margin-top: 80px;
     font-size: 20px;
 }
 
@@ -34,7 +34,7 @@ body {
 }
 
 header {
-    background: #ffffff;
+    background: #eee6e6;
 }
 
 header::after {
