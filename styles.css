@@ -16,14 +16,13 @@ body {
 .lower-body {
     margin: none;
     font-family: "Rubik";
-    font-size: 20px;
 }
 
 .title {
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 80px;
-    font-size: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 57px;
+    font-size: 30px;
 }
 
 .container {
@@ -33,6 +32,7 @@ body {
 
 header {
     background: #eee6e6;
+    
 }
 
 header::after {
@@ -43,14 +43,15 @@ header::after {
 
 .logo {
     float: left;
-    padding-top: 0px;
+    padding-top: 7px;
     padding-left: 10px;
 }
 
 nav {
     float: right;
     font-family: "Montserrat", serif;
-    transform: scaleX(1.25);
+    transform: scale(1.25, 1.1);
+    margin-bottom: 1%;
 }
 
 nav li {
@@ -58,13 +59,14 @@ nav li {
     margin-right: 10px;
     margin-left: 10px;
     padding-top: 0px;
+    
 }
 
 nav a {
     color: #3c3535;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 25px;
+    font-size: 30px;
     font-stretch: expanded;
     
 }
@@ -73,8 +75,17 @@ nav a:hover {
     color: black;
 }
 
+.rect-trans-red {
+    height: 130px;
+    width: 400px;
+    background: rgb(224, 3, 7, 0.55);
+    margin-left: 30%;
+}
+
 .rect-trans-blue {
     height: 60px;
-    width: 170px;
-    background: rgb(224, 3, 7, 0.4);
+    width: 40px;
+    background: rgb(7, 50, 244, 0.55);
+    margin-left: 27%;
+    margin-top: -30px;
 }
