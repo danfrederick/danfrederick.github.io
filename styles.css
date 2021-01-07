@@ -16,6 +16,7 @@ body {
 .lower-body {
     margin: none;
     font-family: "Rubik";
+    font-style: italic;
 }
 
 .title {
