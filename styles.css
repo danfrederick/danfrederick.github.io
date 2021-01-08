@@ -63,7 +63,7 @@ nav {
     font-family: "Montserrat", serif;
     transform: scale(1.25, 1.1);
     margin-bottom: 1%;
-    
+    overflow: visible;
 }
 
 nav li {
@@ -87,6 +87,48 @@ nav a {
 nav a:hover {
     color: black;
 }
+
+.dropdown {
+    float: left;
+    overflow: visible;
+    font-style: inherit;
+    font-size: 30px;
+    
+}
+
+.dropdown .dropbtn {
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    color: #3c3535;
+    background-color: #eee6ee;
+    font-family: inherit; 
+    margin: 0
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #eee6e6;
+    min-width: 120px;
+    z-index: 1;
+  }
+
+.dropdown-content a {
+    float: none;
+    color: #3c3535;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
 
 .rect-trans-red {
     height: 150px;
