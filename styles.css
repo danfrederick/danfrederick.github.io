@@ -12,6 +12,8 @@ body {
     font-family: "Montserrat", serif;
     font-size: 100%;
     font-weight: 300;
+    cursor: crosshair;
+    
 }
 .lower-body {
     margin: none;
@@ -25,6 +27,7 @@ body {
     margin-top: 59px;
     font-size: 30px;
     color: #3c3535;
+    
 }
 
 .featured {
@@ -60,6 +63,7 @@ nav {
     font-family: "Montserrat", serif;
     transform: scale(1.25, 1.1);
     margin-bottom: 1%;
+    
 }
 
 nav li {
@@ -77,6 +81,7 @@ nav a {
     font-size: 30px;
     font-stretch: expanded;
     
+    
 }
 
 nav a:hover {
@@ -88,6 +93,7 @@ nav a:hover {
     width: 400px;
     background: rgb(224, 3, 7, 0.65);
     margin: auto;
+    
 }
 
 .rect-trans-blue {
@@ -101,7 +107,7 @@ nav a:hover {
 .rect-trans-yellow {
     height: 300px;
     width: 400px;
-    background: rgba(255, 233, 32, 0.55);
+    background: rgba(255, 233, 32, 0.75);
     margin-left: 50%;
     margin-top: 40px;
 }
@@ -109,7 +115,7 @@ nav a:hover {
 .rect-trans-green {
     height: 300px;
     width: 400px;
-    background: rgba(41, 168, 25, 0.55);
+    background: rgba(41, 168, 25, 0.65);
     margin-left: 10%;
     margin-top: 40px;
 }
@@ -117,7 +123,7 @@ nav a:hover {
 .rect-trans-orange {
     height: 300px;
     width: 400px;
-    background: rgba(255, 158, 11, 0.55);
+    background: rgba(255, 158, 11, 0.65);
     margin-left: 17%;
     margin-top: 30px;
 }
@@ -125,7 +131,20 @@ nav a:hover {
 .rect-trans-purple {
     height: 300px;
     width: 400px;
-    background: rgba(157, 11, 255, 0.55);
+    background: rgba(157, 11, 255, 0.65);
     margin-left: 37%;
     margin-top: 40px;
+}
+
+.footer {
+    margin-top: 60px;
+
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #eee6e6;
+    text-align: center;
+    color: #525151;
+    font-family: 'Rubik';
+    font-size: 15px;
 }
