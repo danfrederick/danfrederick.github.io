@@ -191,3 +191,12 @@ nav a:hover {
     font-size: 15px;
     font-style: italic;
 }
+
+
+
+
+
+/* DATA PAGE */
+.rect-trans-white {
+    background: rgba(255, 255, 255, 0.85);
+}
