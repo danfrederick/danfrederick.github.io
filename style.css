@@ -5,8 +5,8 @@ body {
     height: 100vh;
     background-size: 120px 120px;
     background-image:
-    linear-gradient(to right, black 1px, transparent 1px),
-    linear-gradient(to bottom, black 1px, transparent 1px);
+    linear-gradient(to right, rgb(151, 148, 148) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(151, 148, 148) 1px, transparent 1px);
     background-repeat: repeat;
    
     font-family: "Montserrat", serif;
@@ -26,7 +26,7 @@ body {
     margin-right: 5%;
     margin-top: 59px;
     font-size: 30px;
-    color: #3c3535;
+    color: #1f1d1d;
     
 }
 
@@ -42,11 +42,13 @@ body {
 .container {
     width: 80%;
     margin: 0 auto;
+    
 }
 
 header {
-    background: #eee6e6;
+    background: #1f1d1d;
     
+    /*#eee636*/
 }
 
 header::after {
@@ -57,6 +59,7 @@ header::after {
 
 .logo {
     float: left;
+    margin-left: 5%;
     padding-top: 7px;
     padding-left: 10px;
 }
@@ -64,9 +67,10 @@ header::after {
 nav {
     float: right;
     font-family: "Montserrat", serif;
-    transform: scale(1.25, 1.1);
+    transform: scale(1.2, 1.1);
     margin-bottom: 1%;
     overflow: visible;
+    
 }
 
 nav li {
@@ -78,17 +82,16 @@ nav li {
 }
 
 nav a {
-    color: #3c3535;
+    color: #f5eeee;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 30px;
-    font-stretch: expanded;
+    font-size: 20px;
     
     
 }
 
 nav a:hover {
-    color: black;
+    color: #eee363;
 }
 
 .dropdown {
@@ -96,17 +99,17 @@ nav a:hover {
     overflow: visible;
     font-style: inherit;
     font-size: 30px;
-    
+    text-align: center;
 }
 
 .dropdown .dropbtn {
-    font-size: 30px;
+    font-size: 20px;
     text-decoration: none;
     text-transform: uppercase;
     border: none;
     outline: none;
-    color: #3c3535;
-    background-color: #eee6ee;
+    color: #f5eeee;
+    background-color: #1f1d1d;
     font-family: inherit; 
     margin: 0
 }
@@ -114,14 +117,14 @@ nav a:hover {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #eee6e6;
+    background-color: #1f1d1d;
     min-width: 120px;
     z-index: 1;
   }
 
 .dropdown-content a {
     float: none;
-    color: #3c3535;
+    color: #f5eeee;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -198,8 +201,19 @@ nav a:hover {
 }
 
 
+/* ABOUT ME PAGE*/
+.profpic {
+    margin-left: 10%;
+    margin-top: 5%;
+}
 
-
+.rect-trans-blue2 {
+    height: 300px;
+    width: 400px;
+    background: rgb(7, 50, 244, 0.65);
+    margin-left: 40%;
+    margin-top: 0px;
+}
 
 /* DATA PAGE */
 .rect-trans-white {
